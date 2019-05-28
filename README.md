@@ -10,4 +10,4 @@ ATTENTION!! There are many inconsistencies with K82F data sheet to set preemptiv
     
     I2S: serial sinc-communication with audio decoder UDA1334ATS.
     
-    MAIN: just once, play the 12 musical note in 4° octave, blink lend every 1 s in task1, nothing to do in task 2.
+    MAIN: just once, play the 12 musical note in 4° octave, blink led every 1 s in task1, and, for now, nothing to do in task 2.
