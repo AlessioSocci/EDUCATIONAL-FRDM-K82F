@@ -2,7 +2,7 @@
 
 Educational BARE-METAL Project
 
-Test some basic funcitonality for NXP K82F in FRDM board, without libraries.
+Test some basic functionality for NXP K82F in FRDM board, without libraries.
 
 ATTENTION!! There are many inconsistencies with K82F data sheet to set preemptive priority !! ... this code seems to work well !!
 
