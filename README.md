@@ -1,6 +1,6 @@
 # FRDM-K82F
 
-Educational BARE-METAL Project
+Soft Real Time O.S. with Task Non-Preemptive First Come First Served Scheduling "Educational" Project - NXP ARM Cortex M4F
 
 Test some basic functionality for NXP K82F in FRDM board, without libraries.
 
