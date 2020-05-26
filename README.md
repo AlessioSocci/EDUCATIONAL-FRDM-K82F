@@ -8,6 +8,6 @@ ATTENTION!! There are many inconsistencies with K82F data sheet to set preemptiv
 
     PIT: interrupt with "high" pre-emptive priority (1), time for delay and state machine, increment internal counter every about 1 ms;
     
-    I2S: serial sinc-communication with audio decoder UDA1334ATS.
+    I2S: serial sinc-communication with audio decoder UDA1334ATS 24bit audio ADC and with PCM1808 24 bit audio DAC. 
     
-    MAIN: just once, play the 12 musical note in 4° octave, blink led every 1 s in task1, and, for now, nothing to do in task 2.
+    MAIN: just once, play the 12 musical note in 4° octave, blink led every 1 s in task0, and, for now, nothing to do in task 1 (QSPI FLASH...), receive audio data from PCM1808 and send it to UDA1334.
