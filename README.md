@@ -9,11 +9,11 @@ ATTENTION !! There are many inconsistencies with K82F data sheet, to set preempt
 
 PIT: interrupt with "high" pre-emptive priority (1), time for delay and state machine, increment internal counter every about 1 ms;
     
-I2S: serial sinc-communication with with PCM1808 24 bit - 44100 Hz (96 kHz is also possible...) audio ADC and UDA1334ATS 24bit audio 
+I2S: serial sync-communication with with PCM1808 24 bit - 44100 Hz (96 kHz is also possible...) audio ADC and UDA1334ATS 24bit audio 
      DAC connected to a small power integrated audio stereo amplifier with 2 nearly full-range speaker at it's end (really range is 
      approximatively flat from 200 Hz to 4 KHz... but is good enough to prove this example);
     
-SPI: serial sinc-communication with external 8 MB - 24bit addressed, flash memory.
+SPI: serial sync-communication with external 8 MB - 24bit addressed, flash memory.
     
 MAIN: just once, play the 12 musical note in 4° octave in sinusoidal and square waveform, test some transaction to external flash memory,
       blink led every 1 s in task0, and, for now, nothing to do in task 1 (working on QSPI FLASH), read previous memorized input audio data to externl SPI    
